@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Puppies</title>
+  </head>
+<body>
+  <h1>Puppies Up For Adoption</h1>
+    <% @hash1.each do |key, value| %>
+    <p>Puppy Name: <%= key %></p>
+    <p>Puppy Breed: <%= value[0] %></p>
+    <p>Puppy Age: <%= value[1] %> months</p>
+    <% end %>
+
+</body>
+</html>
