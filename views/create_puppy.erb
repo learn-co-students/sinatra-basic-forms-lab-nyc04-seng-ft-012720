@@ -1,9 +1,21 @@
-<form method="post" action="/puppy">
-  <label for="name"> Puppy Name</label>
-  <input type="text" id="name" name="name">
-  <label for="breed"> Puppy Breed</label>
-  <input type="text" id="breed" name="breed">
-  <label for="age"> Puppy Age</label>
-  <input type="text" id="age" name="age">
-  <input type="submit" value="submit">
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ListPuppy</title>
+  </head>
+<body>
+<h1> Welcome to the puppy adoption site!</h1>
+<h2> This is where you are going to list a new puppy for adoption</h2>
+
+<form method="POST" action="/puppy">
+  <label for="name"> Puppy Name </label>
+  <input id="name" type="text"  name="name">
+  <label for="breed"> Puppy Breed </label>
+  <input id="breed" type="text"  name="breed">
+  <label for="age"> Puppy Age </label>
+  <input id="age" type="text"  name="age">
+  <input type="submit" value="Submit">
 </form>
+
+</body>
+</html>
